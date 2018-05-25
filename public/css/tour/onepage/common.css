@@ -1,0 +1,12 @@
+.txtlink {
+	color: black;
+}
+
+.txtlink:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.hidden {
+	display: none;
+}

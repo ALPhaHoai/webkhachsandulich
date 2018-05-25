@@ -1,0 +1,8 @@
+.cancelbook {
+	text-align: center;
+
+}
+
+.cancelbook:hover {
+	cursor: pointer;
+}

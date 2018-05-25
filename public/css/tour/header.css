@@ -1,0 +1,79 @@
+#header {
+	width: 100%;
+	height: 50px;
+	z-index: 9999;
+}
+
+#header #banner {
+	padding-left: 30px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.banner-content {
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	height: 100%;
+	width: 70px;
+	color: white;
+	font-size: 18px;
+}
+
+.banner-content:hover {
+	cursor: pointer;
+	background-color: red;
+}
+
+.blog {
+	width: 100px;
+}
+
+
+.banner-content p{
+	font-size: 28px;
+}
+
+#header #navbar {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+#header #navbar .nav-item{
+	width: 120px;
+	height: 100%;
+	float: right;
+	margin-right: 2px;
+	border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+}
+.nav-item .icon{
+	padding-top: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-size: 50px;
+}
+
+.nav-item .text{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	transition: 0.2s ;
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+}
+.nav-item:hover .text{
+	transform: translateY(-100px);
+	cursor: pointer;
+}

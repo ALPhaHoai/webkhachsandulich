@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+
+#subheader {
+	width: 100%;
+	height: 500px;
+}
+#carousel-id .item{
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+.fav {
+	padding: 10px;
+	width: 100%;
+	height: 350px;
+}
+
+#myCalrousel {
+	width: 100%;
+	height: 100%;
+}
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; height: 100%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+
+.txtlink {
+	color: white;
+	text-decoration-line: none;
+}
+
+.txtlink:hover {
+	color: white;
+	text-decoration: none;
+}

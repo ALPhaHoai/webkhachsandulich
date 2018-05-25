@@ -1,0 +1,61 @@
+.countdownitem{
+	position: relative;
+}
+
+.countdown-clock {
+	position: absolute;
+	left: 75px;
+	top: 0px;
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	font-size: 15px;
+}
+
+.soon {
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	width: 90%;
+	height: 100px;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-left: 20px;
+}
+
+.soon .soon-title{
+	font-weight: bold;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+}
+.soon .soon-day{
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
+}
+.soon .soon-price{
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
+	color: yellow;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline;
+}
+
+.soon .soon-origin-price{
+	position: absolute;
+	bottom: -10px;
+	left: 45%;
+	text-decoration: line-through;
+}
+
+.soon-detail{
+	position: absolute;
+	bottom: 25px;
+	right: 5%;
+}
+
+

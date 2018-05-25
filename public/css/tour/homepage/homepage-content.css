@@ -1,0 +1,127 @@
+.content-main {
+	height: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.content {
+	height: 300px;
+	margin-bottom: 20px;
+	overflow: hidden;
+
+}
+
+.content-title {
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	height: 20%;
+	color: black;
+	border-bottom: 2px solid red;
+}
+
+.content-title .icon{
+	position: absolute;
+	height: 100%;
+	width: 50px;
+}
+.content-title img{
+	height: 100%;
+	width: 100%;
+}
+
+.content-title .title{
+	position: absolute;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 30px;
+	bottom: 0px;
+	left: 110px;
+}
+
+.content-title .detail-link{
+	position: absolute;
+	font-family: "Times New Roman", Times, serif;
+	bottom: 0px;
+	right: 0px;
+}
+
+.content-title .detail-link a{
+	color: red;
+}
+
+.content-title .detail-link a:hover{
+	text-decoration: none;
+}
+
+.content-item {
+	width: 23%;
+	float: left;
+	height: 80%;
+	margin-left: 10px;
+	position: relative;
+}
+.content-item:hover img{
+	opacity: 0.6;
+}
+
+.content-item .content-img {
+	margin-top: 10px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+.content-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.content-item-info{
+	padding-left: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	color: white;
+	overflow: hidden;
+}
+
+.content-item-title {
+	height: 40px;
+	font-weight: bold;
+	font-size: 15px;
+	overflow: hidden;
+	z-index: 9999;
+}
+
+.content-item-price {
+	font-weight: bold;
+	font-size: 15px;
+	color: red;
+	z-index: 9999;
+}
+
+.content-item-originprice {
+	color: white;
+	text-decoration: line-through;
+	z-index: 9999
+}
+
+
+.content-item-highlight {
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+
+

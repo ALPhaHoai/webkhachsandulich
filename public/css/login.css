@@ -1,0 +1,36 @@
+#all {
+	background-color: white;
+	height: 300px;
+}
+#username {
+	height: 100px;
+	padding-top: 50px;
+}
+.input div {
+	font-weight: bold;
+	padding-left: 10px;
+}
+.input input {
+	border-radius: 2px;
+    height: 15px;
+    line-height: 35px;
+    border: 1px solid #ad9ea3;
+    padding: 10px;
+    margin: 10px 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    max-width: 400px;
+}
+#button {
+	background-color: #337AB7;
+    width: 90px;
+    height: 30px;
+    color: white;
+    margin: 10px 10px;
+}
+#footer {
+	margin-top: 5px;
+}
+#contant {
+	height: auto;	
+}

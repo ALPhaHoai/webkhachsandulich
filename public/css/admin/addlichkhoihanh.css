@@ -1,0 +1,12 @@
+#table_id {
+	table-layout:auto ;
+    width: 100%;   
+}
+
+#table_id th,td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BCBCBC;
+    word-wrap: break-word;
+    text-align: center;
+}

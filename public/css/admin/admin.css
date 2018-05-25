@@ -1,0 +1,66 @@
+/*  Them khach san    */
+.more {
+	border-radius: 10px;
+	padding-top: 5px;
+	font-size: 25px;
+	border:2px solid #A4A4A4;
+	text-align: center;
+	cursor: pointer;
+	height: 50px;
+}
+.more .glyphicon {
+		transition: .2s ease;
+}
+.more:hover .glyphicon {
+	transform: rotate(360deg);
+}
+#hotelpicture {
+	padding: 20px;
+	height: 200px;
+	position: relative;
+}
+.more:active {
+	transform: translateY(4px);
+}
+
+
+/*            Tab-Thêm khách sạn             */
+.tabbutton1 {
+	float: left;
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.tabbutton1:hover {
+	background-color: #BDBDBD;
+}
+.tabcontent1 {
+
+
+}
+.active {
+	background-color: #BDBDBD;
+}
+.hide {
+	position: absolute;
+	opacity: 0;
+	z-index: -9999;
+}
+
+/*        Nút xóa             */
+.del_icon {
+	background:red;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+.delroomtypeitem {
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+}
+.delroomtypeitem button {
+	border-radius: 15px;
+}

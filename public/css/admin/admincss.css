@@ -1,0 +1,395 @@
+#header {
+	z-index: 99;
+	width: 100%;
+	height: 50px;
+	background-color: #0E153F  ;
+	color: white;
+	position: relative;
+	position: fixed;
+}
+
+#header .sidebar-toggle{
+	position: absolute;
+	height: 50px;
+	width: 70px;
+	left: 0px;
+	padding: 10px;
+
+}
+#header .sidebar-toggle:hover {
+	cursor: pointer;
+}
+
+#header .sidebar-toggle div {
+	height: 5px;
+	margin-bottom: 4px;
+	width: 30px;
+	background-color: white;
+}
+
+#header .page-title {
+	height: 50px;
+	width: 100px;
+	left: 70px;
+	position: absolute;
+	padding: 5px;
+	font-size: 28px;
+	color: #E5DD3E;
+	font-family: 'Trocchi', serif;
+}
+#header .searchbox {
+	color: black;
+	padding: 10px;
+	display: flex;
+	position: absolute;
+	left: 170px;
+	height: 50px;
+	width: 200px;
+}
+
+#header .userinfo {
+	height: 100%;
+	width: 170px;
+	position: absolute;
+	right: 0px;
+}
+
+.avatar{
+	position: absolute;
+	right: 100px;
+	height: 90%;
+	width: 50px;
+	border-radius: 70px;
+	overflow: hidden;
+	border: 2px solid #54D1E0;
+}
+.avatar img{
+	height: 100%;
+	width: 100%;
+}
+ .name {
+ 	position: absolute;
+ 	right:0px;
+	height: 100%;
+	width: 100px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+	color: #BCCDCF;
+}
+.name a{
+	text-decoration: none;
+	color: #BCCDCF;
+}
+
+.name a:hover{
+	text-decoration: none;
+	color:#BCCDCF; 
+}
+
+.notice {
+	position: absolute;
+	right: 175px;
+	height: 100%;
+	width: 50px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+
+}
+
+.notice:hover {
+	color: #477FF0;
+	cursor: pointer;
+}
+
+.noticepopup {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 300px;
+	height: 200px;
+	overflow: auto;
+}
+.noticeitem{
+	background-color: #AEB5C2;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+	border:2px solid black;
+}
+
+
+
+
+#menu {
+	z-index: 99;
+	background-color: #4F5576;
+	display: block;
+	margin-top: 2px;
+	float: left;
+	width: 200px;
+	height: 90%;
+	left: 0px;
+	top: 50px;
+	position: absolute;
+	position: fixed;
+}
+
+
+
+#menu .active {
+	border-right: none;
+}
+
+.side-menu {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.side-menu li {
+	list-style: none;
+	height: 50px;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	color: white;
+}
+
+.side-menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+.side-menu li:hover {
+	background-color: #6BD2DE;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+
+
+
+#content {
+	position: absolute;
+	left: 200px;
+	top:50px;
+	width: 80%;
+	height: 100%;
+}
+
+#content .list-title {
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	border-bottom: 1px solid #A5A592;
+}
+
+#content .table {
+	margin-left: 10px;
+	width: 100%;
+}
+
+
+
+.form {
+	padding: 20px;
+}
+
+#imgDisplay {
+	margin-left: 150px;
+	width: 100px;
+	height: 100px;
+}
+#imgDisplay img{
+	width: 100%;
+	height: 100%;
+}
+
+#table_id {
+	table-layout: fixed;
+    width: 100%;   
+}
+
+#table_id th,td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BCBCBC;
+    word-wrap: break-word;
+}
+
+#tour_detail  {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+#tour_detail td{
+	height: 100px;
+	overflow:auto;
+	text-indent: 20px;
+}
+
+#tour_detail .title {
+	width: 200px;
+	text-align: center;
+}
+
+.touritem {
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	float: left;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+.tourimg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.delimg {
+	background-color: red;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	overflow: hidden;
+}
+.delimg button {
+	color: black;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+.tourimg img {
+	width: 100%;
+	height: 100%;
+}
+
+.insert_more {
+
+}
+
+.addimg {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+
+#tourimg_holder {
+	height: 350px;
+	overflow-y: auto;
+}
+
+.linkbtn {
+	color: white;
+}
+
+.linkbtn:hover {
+	color: white;
+}
+
+
+
+.get_noidung {
+	cursor: pointer;
+}
+
+
+#popup{
+	display: none;
+	position: fixed;
+	left: 20%;
+	top: 15%;
+	width: 800px;
+	height: 500px;
+	overflow:auto;
+	z-index: 99999;
+}
+
+.closebtn {
+	cursor: pointer;
+}
+
+.dark_screen {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: black;
+	opacity: 0.5;
+	display: none;
+}
+
+#notice {
+	display: none;
+	position: fixed;
+	left: 25%;
+	top: 15%;
+	width: 800px;
+	height: 100px;
+	z-index: 8888; 
+}
+
+.hidden {
+	display: none;
+}
+
+
+.panel {
+	margin-left: 10px;
+}
+
+#displaymessage {
+	position: fixed;
+	left: 30%;
+	top: 20%;
+	width: 500px;
+	height: 150px;
+	z-index: 99;
+}
+#displaymessage .panel {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* common*/
+.txtlink{
+	text-decoration: none;
+	color: black;
+}
+.txtlink:hover{
+	text-decoration: none;
+	color: black;
+}
+.hidden {
+	display: none;
+}
+
+
+#footer {
+	
+}

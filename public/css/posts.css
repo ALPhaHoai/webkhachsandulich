@@ -1,0 +1,36 @@
+#post-search img {
+  width: 13%;
+  position: absolute;
+  top: 0px;
+  left: 169px;
+}
+#post-search input {
+  height: 26px;
+  width: 96%;
+  padding-left: 5px;
+}
+#post-menu {
+  background-color: #629B00;
+  width: 200px;
+  position: absolute;
+}
+#post-content {
+ display: inline-block;
+ padding-left: 206px;
+ color: white;
+ font-size: 18px;
+}
+#post-menu li {
+ height: 35px;
+ line-height: 35px;
+ list-style: none;
+ display: block;
+ padding-left: 10px;
+}
+#post-menu a {
+  text-decoration:none;
+  color: white;
+}
+#post-menu li:hover {
+  background:#486E93;
+}

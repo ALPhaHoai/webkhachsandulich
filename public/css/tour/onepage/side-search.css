@@ -1,0 +1,9 @@
+.item-sidesearch{
+	width: 100%;
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.item-sidesearch:hover {
+	background-color: #76E4F1;
+}

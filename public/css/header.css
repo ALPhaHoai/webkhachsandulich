@@ -1,0 +1,32 @@
+.navheader {
+    background-color: #3B5998!important;
+    position: fixed!important;
+    width: 100%;
+    z-index: 100;
+}
+.navsearch img {
+	position: absolute;
+	width: 19%;
+    left: 600px;
+}
+.navbar {
+	margin: 0!important;
+}
+a:hover {
+	background-color: #CDC7C7!important;
+	text-decoration: none!important;
+}
+a {
+	color: white!important;
+}
+.navheader input {
+	position: absolute;
+	width: 500px;
+}
+.navlink {
+	position: absolute;
+	padding: 0!important;
+}
+.navlink a {
+	padding: 0 30px;
+}
